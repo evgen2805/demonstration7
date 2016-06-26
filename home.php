@@ -7,15 +7,16 @@
   */
   $Avtosalon = array (
   1=>array(
-  'name'=>'BMW',
-  'model'=>'M5'
-  'year of issue'=>'2005',      
+   'name'=>'BMW',
+    'model'=>'M5'
+    'year of issue'=>'2005',      
   ) 
       1=>array(
         'name'=>'Audi',
         'model'=>'A4-quatro'
         'year of issue'=>'2007',      
-  ))
+  )
+    )
 
 
 
