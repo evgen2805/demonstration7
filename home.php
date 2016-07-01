@@ -19,6 +19,7 @@
      );
     
 ?>
+//Удобное решение
 <?php 
 $carCenter = array (
   'bmw' => array(
