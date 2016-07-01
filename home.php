@@ -19,3 +19,21 @@
      );
     
 ?>
+//правильное решение!
+<?php 
+$carcenter = array (
+  'bmw' => array(
+    'm5' => array(
+      2000,2002
+      ),
+      'm6'=> array(
+        2002,2004)
+    )
+    ),
+    'Honda' => array(
+      'Accord'=> array (
+        2007,2010)
+        );
+        $carcenter ['bmw']['m6'];
+
+?>
