@@ -7,7 +7,7 @@ $Shop  = array(
 
   $arrayCount = count($Shop);
   
-  for($i = $arrayCount ; $i >= 0; $i++) {
+  for($i= 100; $i>=0; $i--) {
     echo $shop [$i] . ', ';
 }
 
