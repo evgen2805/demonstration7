@@ -1,6 +1,6 @@
 <?php
 $random = array();
-for ($i = 0; $i<=100; $i++){
+for ($i = 1; $i<=100; $i++){
     $random[]= rand ($i, true);
 }
 
