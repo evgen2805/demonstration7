@@ -46,5 +46,28 @@ $carCenter = array(
         'camry' => array(1999)
     )
 );
-
+// Решение (decision)
+    foreach ($carcenter['brands'] as $brandName => $brandData){
+        $years = array();
+        echo 'Brand: ' . $brandname;
+        echo '<br />';
+         echo 'Models: ';
+    foreach ($brandData ['models'] as $modelName => $modelData) {
+        echo $modelName . ',';
+    foreach ($modelData['years'] as $year) {
+        $years[] = $year;
+        }    
+    }
+    echo '<br />';
+    echo 'years: ';
+    foreach ($years as $year){
+        echo $year . ',':
+    }
+    echo '<hr />';
+}
 ?>
+?>
+ 
+
+
+
