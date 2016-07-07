@@ -47,25 +47,28 @@ $carCenter = array(
     )
 );
 // Решение (decision)
-    foreach ($carcenter['brands'] as $brandName => $brandData){
-        $years = array();
-        echo 'Brand: ' . $brandname;
-        echo '<br />';
-         echo 'Models: ';
-    foreach ($brandData ['models'] as $modelName => $modelData) {
+  foreach ($carCenter['brands'] as $brandName => $brandData) {
+    $years = array();
+    echo 'Brand: ' . $brandName;
+    echo "<br />";
+    echo 'Models: ';
+    foreach ($brandData['models'] as $modelName => $modelData) {
         echo $modelName . ',';
-    foreach ($modelData['years'] as $year) {
-        $years[] = $year;
-        }    
+        foreach ($modelData['years'] as $year) {
+            $years[] = $year;
+        }
     }
-    echo '<br />';
-    echo 'years: ';
-    foreach ($years as $year){
-        echo $year . ',':
+    echo "<br />";
+    echo 'Years: ';
+//    foreach ($years as $year) {
+//        echo $year . ',';
+//    }
+    $countYears = count($years);
+    for ($i = 0; $i < $countYears; $i++) {
+        echo $years[$i] . ',';
     }
-    echo '<hr />';
+    echo "<hr />";
 }
-?>
 ?>
  
 
